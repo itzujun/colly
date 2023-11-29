@@ -465,7 +465,7 @@ func CheckHead() CollectorOption {
 // Init initializes the Collector's private variables and sets default
 // configuration for the Collector
 func (c *Collector) Init() {
-	c.UserAgent = "colly - https://github.com/gocolly/colly/v2"
+	c.UserAgent = "colly - https://github.com/itzujun/colly/v2"
 	c.Headers = nil
 	c.MaxDepth = 0
 	c.MaxRequests = 0

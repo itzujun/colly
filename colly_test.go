@@ -1229,7 +1229,7 @@ func TestEnvSettings(t *testing.T) {
 func TestUserAgent(t *testing.T) {
 	const exampleUserAgent1 = "Example/1.0"
 	const exampleUserAgent2 = "Example/2.0"
-	const defaultUserAgent = "colly - https://github.com/gocolly/colly/v2"
+	const defaultUserAgent = "colly - https://github.com/itzujun/colly/v2"
 
 	ts := newTestServer()
 	defer ts.Close()
